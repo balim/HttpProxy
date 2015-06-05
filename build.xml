@@ -77,13 +77,13 @@
     <target name="build" description="Build Project">
         <javac classpathref="project.classpath" debug="true" destdir="${classes.dir}" srcdir="${main.dir}"/>
         <javac classpathref="project.classpath" debug="true" destdir="${test.classes.dir}" srcdir="${test.src.dir}"/>
-        <copy todir="${classes.dir}" file="${main.dir}/log4j.properties" overwrite="true"/>
+        <copy todir="${classes.dir}" file="src/main/resources/log4j.properties" overwrite="true"/>
     </target>
 
     <target name="build-release" description="Build Project">
         <javac classpathref="project.classpath" debug="false" destdir="${classes.dir}" srcdir="${main.dir}"/>
         <javac classpathref="project.classpath" debug="false" destdir="${test.classes.dir}" srcdir="${test.src.dir}"/>
-        <copy file="${main.dir}/log4j.release.properties" tofile="${classes.dir}/log4j.properties" overwrite="yes"/>
+        <copy file="src/main/resources/log4j.release.properties" tofile="${classes.dir}/log4j.properties" overwrite="yes"/>
     </target>
 
     <target name="clean" description="clean project">

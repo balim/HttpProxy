@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="KEVINJONES-WIN81-BASE" id="0" name="ProxyClientTest" package="com.mantiso.kevinj.http.proxy" skipped="0" tests="2" time="0.409" timestamp="2015-06-05T08:45:27">
+      <properties>
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="zip.dir" value="zip" />
+
+          <property name="env.VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\" />
+
+          <property name="java.home" value="C:\home\kevinj\java\jre" />
+
+          <property name="test.src.dir" value="V:\projects\HttpProxy.orig\src\test\java" />
+
+          <property name="dm.deploy.dir" value="c:/course/dm" />
+
+          <property name="jarfile" value="dist/lib/HTTPProxy.jar" />
+
+          <property name="java.endorsed.dirs" value="C:\home\kevinj\java\jre\lib\endorsed" />
+
+          <property name="env.USERNAME" value="kevin" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="dist.lib.dir" value="dist/lib" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="env.COMPUTERNAME" value="KEVINJONES-WIN8" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.version" value="1.8.0_45" />
+
+          <property name="listenport" value="9080" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.USERPROFILE" value="C:\Users\kevin" />
+
+          <property name="ant.project.invoked-targets" value="run-tests" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="user.name" value="kevin" />
+
+          <property name="masterbuild.dir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\kevin\AppData\Local" />
+
+          <property name="dm.deploy.bin.dir" value="c:/course/dm/bin" />
+
+          <property name="tomcat.port" value="8080" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="user.timezone" value="Europe/London" />
+
+          <property name="deploy.zip.name" value="HttpProxy.zip" />
+
+          <property name="user.script" value="" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="env.HOME" value="c:\home\kevinj" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.mantiso.kevinj.http.proxy.ProxyClientTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,V:\projects\HttpProxy.orig\test\data\TEST-com.mantiso.kevinj.http.proxy.ProxyClientTest.xml crashfile=V:\projects\HttpProxy.orig\junitvmwatcher8577511859560206809.properties propsfile=V:\projects\HttpProxy.orig\junit5365093260597435926.properties" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+
+          <property name="env.APPDATA" value="C:\Users\kevin\AppData\Roaming" />
+
+          <property name="ant.file" value="V:\projects\HttpProxy.orig\build.xml" />
+
+          <property name="server" value="localhost" />
+
+          <property name="java.io.tmpdir" value="C:\Users\kevin\AppData\Local\Temp\" />
+
+          <property name="TODAY" value="June 5 2015" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="ant.file.type.HTTPProxy" value="file" />
+
+          <property name="local.dm.deploy.bin.dir" value="dm/bin" />
+
+          <property name="dm.deploy.lib.dir" value="c:/course/dm/lib" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="test.last.failed.file" value="V:\projects\HttpProxy.orig\target\test-classes\.lasttestsfailed" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="KEVINJONES-WIN8" />
+
+          <property name="test.classes.dir" value="V:\projects\HttpProxy.orig\target\test-classes" />
+
+          <property name="env.LOGONSERVER" value="\\MicrosoftAccount" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="test.reports.dir" value="V:\projects\HttpProxy.orig\target\reports" />
+
+          <property name="test.data.dir" value="V:\projects\HttpProxy.orig\test\data" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="env.USERDOMAIN" value="KEVINJONES-WIN8" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="local.dm.deploy.lib.dir" value="dm/lib" />
+
+          <property name="env.TMP" value="C:\Users\kevin\AppData\Local\Temp" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="java.library.path" value="C:\home\kevinj\java\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Parallels\Parallels Tools\Applications;c:\home\kevinj\java\bin;C:\ProgramData\Oracle\Java\javapath;c:\home\kevinj\java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;c:\home\kevinj\tomcat\bin;c:\home\kevinj\gradle\bin;c:\home\kevinj\bin;c:\home\kevinj\ant\bin;." />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="basedir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant" />
+
+          <property name="env.Path" value="C:\Program Files (x86)\Parallels\Parallels Tools\Applications;c:\home\kevinj\java\bin;C:\ProgramData\Oracle\Java\javapath;c:\home\kevinj\java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;c:\home\kevinj\tomcat\bin;c:\home\kevinj\gradle\bin;c:\home\kevinj\bin;c:\home\kevinj\ant\bin" />
+
+          <property name="dist" value="dist" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.boot.library.path" value="C:\home\kevinj\java\jre\bin" />
+
+          <property name="target.dir" value="target" />
+
+          <property name="env.PROCESSOR_REVISION" value="3d04" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="user.variant" value="" />
+
+          <property name="jarfile.name" value="HTTPProxy.jar" />
+
+          <property name="webapp" value="webapps/addressbook/" />
+
+          <property name="jar.dir" value="jar" />
+
+          <property name="ant.project.name" value="HTTPProxy" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="global.server.dir" value="tomcat.conf" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\home\kevinj\java\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="tomcat.webapp.dir" value="c:/tomcat/webapps/ROOT" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="user.home" value="C:\Users\kevin" />
+
+          <property name="ant.file.HTTPProxy" value="V:\projects\HttpProxy.orig\build.xml" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.JAVA_HOME" value="c:\home\kevinj\java" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="user.dir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="app.tomcat.server.dir" value="tomcat" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="test.dir" value="V:\projects\HttpProxy.orig\src\test" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="local.dm.deploy.dir" value="dm" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="java.vm.version" value="25.45-b02" />
+
+          <property name="java.class.path" value="V:\projects\HttpProxy.orig\target\classes;V:\projects\HttpProxy.orig\target\test-classes;V:\projects\HttpProxy.orig\lib\dm.jar;V:\projects\HttpProxy.orig\lib\junit.jar;V:\projects\HttpProxy.orig\lib\log4j-1.2.7.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-junit4.jar" />
+
+          <property name="env.=::" value="::\" />
+
+          <property name="env.HOMEPATH" value="\Users\kevin" />
+
+          <property name="DSTAMP" value="20150605" />
+
+          <property name="doc" value="doc" />
+
+          <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="classes.dir" value="target/classes" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="dm.jar" value="dm.jar" />
+
+          <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant.jar" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="tomcat.home.dir" value="c:/tomcat" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="TSTAMP" value="0945" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.runtime.version" value="1.8.0_45-b15" />
+
+          <property name="sun.boot.class.path" value="C:\home\kevinj\java\jre\lib\resources.jar;C:\home\kevinj\java\jre\lib\rt.jar;C:\home\kevinj\java\jre\lib\sunrsasign.jar;C:\home\kevinj\java\jre\lib\jsse.jar;C:\home\kevinj\java\jre\lib\jce.jar;C:\home\kevinj\java\jre\lib\charsets.jar;C:\home\kevinj\java\jre\lib\jfr.jar;C:\home\kevinj\java\jre\classes" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="tomcat.home" value="c:/tomcat" />
+
+          <property name="jars.dir" value="lib" />
+
+          <property name="dist.bin.dir" value="dist/bin" />
+
+          <property name="env.TEMP" value="C:\Users\kevin\AppData\Local\Temp" />
+
+          <property name="env.VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+
+          <property name="user.country" value="GB" />
+
+          <property name="env.ANT_HOME" value="c:\home\kevinj\ant" />
+
+          <property name="dm.jar.present" value="true" />
+
+          <property name="main.dir" value="src/main/java" />
+
+          <property name="jnlp.dir" value="jnlp" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\" />
+
+          <property name="env.CATALINA_HOME" value="c:\home\kevinj\tomcat" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+      </properties>
+
+      <testcase classname="com.mantiso.kevinj.http.proxy.ProxyClientTest" name="testReadData" time="0.287" />
+
+      <testcase classname="com.mantiso.kevinj.http.proxy.ProxyClientTest" name="testSetListeners" time="0.057" />
+
+      <system-out><![CDATA[Socket isClosed: true
+Socket isBound: true
+Socket isClosed: true
+Socket isBound: true
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="KEVINJONES-WIN81-BASE" id="1" name="ImageDisplayOutputStreamTest" package="com.mantiso.kevinj.http.ui" skipped="0" tests="3" time="0.685" timestamp="2015-06-05T08:45:28">
+      <properties>
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="zip.dir" value="zip" />
+
+          <property name="env.VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\" />
+
+          <property name="java.home" value="C:\home\kevinj\java\jre" />
+
+          <property name="test.src.dir" value="V:\projects\HttpProxy.orig\src\test\java" />
+
+          <property name="dm.deploy.dir" value="c:/course/dm" />
+
+          <property name="jarfile" value="dist/lib/HTTPProxy.jar" />
+
+          <property name="java.endorsed.dirs" value="C:\home\kevinj\java\jre\lib\endorsed" />
+
+          <property name="env.USERNAME" value="kevin" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="dist.lib.dir" value="dist/lib" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="env.COMPUTERNAME" value="KEVINJONES-WIN8" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.version" value="1.8.0_45" />
+
+          <property name="listenport" value="9080" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.USERPROFILE" value="C:\Users\kevin" />
+
+          <property name="ant.project.invoked-targets" value="run-tests" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="user.name" value="kevin" />
+
+          <property name="masterbuild.dir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\kevin\AppData\Local" />
+
+          <property name="dm.deploy.bin.dir" value="c:/course/dm/bin" />
+
+          <property name="tomcat.port" value="8080" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="user.timezone" value="Europe/London" />
+
+          <property name="deploy.zip.name" value="HttpProxy.zip" />
+
+          <property name="user.script" value="" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="env.HOME" value="c:\home\kevinj" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.mantiso.kevinj.http.ui.ImageDisplayOutputStreamTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,V:\projects\HttpProxy.orig\test\data\TEST-com.mantiso.kevinj.http.ui.ImageDisplayOutputStreamTest.xml crashfile=V:\projects\HttpProxy.orig\junitvmwatcher8498973523531036069.properties propsfile=V:\projects\HttpProxy.orig\junit6899183094191512149.properties" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+
+          <property name="env.APPDATA" value="C:\Users\kevin\AppData\Roaming" />
+
+          <property name="ant.file" value="V:\projects\HttpProxy.orig\build.xml" />
+
+          <property name="server" value="localhost" />
+
+          <property name="java.io.tmpdir" value="C:\Users\kevin\AppData\Local\Temp\" />
+
+          <property name="TODAY" value="June 5 2015" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="ant.file.type.HTTPProxy" value="file" />
+
+          <property name="local.dm.deploy.bin.dir" value="dm/bin" />
+
+          <property name="dm.deploy.lib.dir" value="c:/course/dm/lib" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="test.last.failed.file" value="V:\projects\HttpProxy.orig\target\test-classes\.lasttestsfailed" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="KEVINJONES-WIN8" />
+
+          <property name="test.classes.dir" value="V:\projects\HttpProxy.orig\target\test-classes" />
+
+          <property name="env.LOGONSERVER" value="\\MicrosoftAccount" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="test.reports.dir" value="V:\projects\HttpProxy.orig\target\reports" />
+
+          <property name="test.data.dir" value="V:\projects\HttpProxy.orig\test\data" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="env.USERDOMAIN" value="KEVINJONES-WIN8" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="local.dm.deploy.lib.dir" value="dm/lib" />
+
+          <property name="env.TMP" value="C:\Users\kevin\AppData\Local\Temp" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="java.library.path" value="C:\home\kevinj\java\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Parallels\Parallels Tools\Applications;c:\home\kevinj\java\bin;C:\ProgramData\Oracle\Java\javapath;c:\home\kevinj\java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;c:\home\kevinj\tomcat\bin;c:\home\kevinj\gradle\bin;c:\home\kevinj\bin;c:\home\kevinj\ant\bin;." />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="basedir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant" />
+
+          <property name="env.Path" value="C:\Program Files (x86)\Parallels\Parallels Tools\Applications;c:\home\kevinj\java\bin;C:\ProgramData\Oracle\Java\javapath;c:\home\kevinj\java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;c:\home\kevinj\tomcat\bin;c:\home\kevinj\gradle\bin;c:\home\kevinj\bin;c:\home\kevinj\ant\bin" />
+
+          <property name="dist" value="dist" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.boot.library.path" value="C:\home\kevinj\java\jre\bin" />
+
+          <property name="target.dir" value="target" />
+
+          <property name="env.PROCESSOR_REVISION" value="3d04" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="user.variant" value="" />
+
+          <property name="jarfile.name" value="HTTPProxy.jar" />
+
+          <property name="webapp" value="webapps/addressbook/" />
+
+          <property name="jar.dir" value="jar" />
+
+          <property name="ant.project.name" value="HTTPProxy" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="global.server.dir" value="tomcat.conf" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\home\kevinj\java\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="tomcat.webapp.dir" value="c:/tomcat/webapps/ROOT" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="user.home" value="C:\Users\kevin" />
+
+          <property name="ant.file.HTTPProxy" value="V:\projects\HttpProxy.orig\build.xml" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.JAVA_HOME" value="c:\home\kevinj\java" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="user.dir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="app.tomcat.server.dir" value="tomcat" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="test.dir" value="V:\projects\HttpProxy.orig\src\test" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="local.dm.deploy.dir" value="dm" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="java.vm.version" value="25.45-b02" />
+
+          <property name="java.class.path" value="V:\projects\HttpProxy.orig\target\classes;V:\projects\HttpProxy.orig\target\test-classes;V:\projects\HttpProxy.orig\lib\dm.jar;V:\projects\HttpProxy.orig\lib\junit.jar;V:\projects\HttpProxy.orig\lib\log4j-1.2.7.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-junit4.jar" />
+
+          <property name="env.=::" value="::\" />
+
+          <property name="env.HOMEPATH" value="\Users\kevin" />
+
+          <property name="DSTAMP" value="20150605" />
+
+          <property name="doc" value="doc" />
+
+          <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="classes.dir" value="target/classes" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="dm.jar" value="dm.jar" />
+
+          <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant.jar" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="tomcat.home.dir" value="c:/tomcat" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="TSTAMP" value="0945" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.runtime.version" value="1.8.0_45-b15" />
+
+          <property name="sun.boot.class.path" value="C:\home\kevinj\java\jre\lib\resources.jar;C:\home\kevinj\java\jre\lib\rt.jar;C:\home\kevinj\java\jre\lib\sunrsasign.jar;C:\home\kevinj\java\jre\lib\jsse.jar;C:\home\kevinj\java\jre\lib\jce.jar;C:\home\kevinj\java\jre\lib\charsets.jar;C:\home\kevinj\java\jre\lib\jfr.jar;C:\home\kevinj\java\jre\classes" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="tomcat.home" value="c:/tomcat" />
+
+          <property name="jars.dir" value="lib" />
+
+          <property name="dist.bin.dir" value="dist/bin" />
+
+          <property name="env.TEMP" value="C:\Users\kevin\AppData\Local\Temp" />
+
+          <property name="env.VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+
+          <property name="user.country" value="GB" />
+
+          <property name="env.ANT_HOME" value="c:\home\kevinj\ant" />
+
+          <property name="dm.jar.present" value="true" />
+
+          <property name="main.dir" value="src/main/java" />
+
+          <property name="jnlp.dir" value="jnlp" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\" />
+
+          <property name="env.CATALINA_HOME" value="c:\home\kevinj\tomcat" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+      </properties>
+
+      <testcase classname="com.mantiso.kevinj.http.ui.ImageDisplayOutputStreamTest" name="testSmallGif" time="0.509" />
+
+      <testcase classname="com.mantiso.kevinj.http.ui.ImageDisplayOutputStreamTest" name="testLargeGif" time="0.035" />
+
+      <testcase classname="com.mantiso.kevinj.http.ui.ImageDisplayOutputStreamTest" name="testMultipleGifs" time="0.037" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="KEVINJONES-WIN81-BASE" id="2" name="InitDialogTest" package="com.mantiso.kevinj.http.ui" skipped="0" tests="2" time="1.127" timestamp="2015-06-05T08:45:30">
+      <properties>
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="zip.dir" value="zip" />
+
+          <property name="env.VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\" />
+
+          <property name="java.home" value="C:\home\kevinj\java\jre" />
+
+          <property name="test.src.dir" value="V:\projects\HttpProxy.orig\src\test\java" />
+
+          <property name="dm.deploy.dir" value="c:/course/dm" />
+
+          <property name="jarfile" value="dist/lib/HTTPProxy.jar" />
+
+          <property name="java.endorsed.dirs" value="C:\home\kevinj\java\jre\lib\endorsed" />
+
+          <property name="env.USERNAME" value="kevin" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="dist.lib.dir" value="dist/lib" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="env.COMPUTERNAME" value="KEVINJONES-WIN8" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.version" value="1.8.0_45" />
+
+          <property name="listenport" value="9080" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.USERPROFILE" value="C:\Users\kevin" />
+
+          <property name="ant.project.invoked-targets" value="run-tests" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="user.name" value="kevin" />
+
+          <property name="masterbuild.dir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\kevin\AppData\Local" />
+
+          <property name="dm.deploy.bin.dir" value="c:/course/dm/bin" />
+
+          <property name="tomcat.port" value="8080" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="user.timezone" value="Europe/London" />
+
+          <property name="deploy.zip.name" value="HttpProxy.zip" />
+
+          <property name="user.script" value="" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="env.HOME" value="c:\home\kevinj" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.mantiso.kevinj.http.ui.InitDialogTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,V:\projects\HttpProxy.orig\test\data\TEST-com.mantiso.kevinj.http.ui.InitDialogTest.xml crashfile=V:\projects\HttpProxy.orig\junitvmwatcher6855782806686948615.properties propsfile=V:\projects\HttpProxy.orig\junit750672879664743032.properties" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+
+          <property name="env.APPDATA" value="C:\Users\kevin\AppData\Roaming" />
+
+          <property name="ant.file" value="V:\projects\HttpProxy.orig\build.xml" />
+
+          <property name="server" value="localhost" />
+
+          <property name="java.io.tmpdir" value="C:\Users\kevin\AppData\Local\Temp\" />
+
+          <property name="TODAY" value="June 5 2015" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="ant.file.type.HTTPProxy" value="file" />
+
+          <property name="local.dm.deploy.bin.dir" value="dm/bin" />
+
+          <property name="dm.deploy.lib.dir" value="c:/course/dm/lib" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="test.last.failed.file" value="V:\projects\HttpProxy.orig\target\test-classes\.lasttestsfailed" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="KEVINJONES-WIN8" />
+
+          <property name="test.classes.dir" value="V:\projects\HttpProxy.orig\target\test-classes" />
+
+          <property name="env.LOGONSERVER" value="\\MicrosoftAccount" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="test.reports.dir" value="V:\projects\HttpProxy.orig\target\reports" />
+
+          <property name="test.data.dir" value="V:\projects\HttpProxy.orig\test\data" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="env.USERDOMAIN" value="KEVINJONES-WIN8" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="local.dm.deploy.lib.dir" value="dm/lib" />
+
+          <property name="env.TMP" value="C:\Users\kevin\AppData\Local\Temp" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="java.library.path" value="C:\home\kevinj\java\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Parallels\Parallels Tools\Applications;c:\home\kevinj\java\bin;C:\ProgramData\Oracle\Java\javapath;c:\home\kevinj\java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;c:\home\kevinj\tomcat\bin;c:\home\kevinj\gradle\bin;c:\home\kevinj\bin;c:\home\kevinj\ant\bin;." />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="basedir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant" />
+
+          <property name="env.Path" value="C:\Program Files (x86)\Parallels\Parallels Tools\Applications;c:\home\kevinj\java\bin;C:\ProgramData\Oracle\Java\javapath;c:\home\kevinj\java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;c:\home\kevinj\tomcat\bin;c:\home\kevinj\gradle\bin;c:\home\kevinj\bin;c:\home\kevinj\ant\bin" />
+
+          <property name="dist" value="dist" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.boot.library.path" value="C:\home\kevinj\java\jre\bin" />
+
+          <property name="target.dir" value="target" />
+
+          <property name="env.PROCESSOR_REVISION" value="3d04" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="user.variant" value="" />
+
+          <property name="jarfile.name" value="HTTPProxy.jar" />
+
+          <property name="webapp" value="webapps/addressbook/" />
+
+          <property name="jar.dir" value="jar" />
+
+          <property name="ant.project.name" value="HTTPProxy" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="global.server.dir" value="tomcat.conf" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\home\kevinj\java\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="tomcat.webapp.dir" value="c:/tomcat/webapps/ROOT" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="user.home" value="C:\Users\kevin" />
+
+          <property name="ant.file.HTTPProxy" value="V:\projects\HttpProxy.orig\build.xml" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.JAVA_HOME" value="c:\home\kevinj\java" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="user.dir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="app.tomcat.server.dir" value="tomcat" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="test.dir" value="V:\projects\HttpProxy.orig\src\test" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="local.dm.deploy.dir" value="dm" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="java.vm.version" value="25.45-b02" />
+
+          <property name="java.class.path" value="V:\projects\HttpProxy.orig\target\classes;V:\projects\HttpProxy.orig\target\test-classes;V:\projects\HttpProxy.orig\lib\dm.jar;V:\projects\HttpProxy.orig\lib\junit.jar;V:\projects\HttpProxy.orig\lib\log4j-1.2.7.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-junit4.jar" />
+
+          <property name="env.=::" value="::\" />
+
+          <property name="env.HOMEPATH" value="\Users\kevin" />
+
+          <property name="DSTAMP" value="20150605" />
+
+          <property name="doc" value="doc" />
+
+          <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="classes.dir" value="target/classes" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="dm.jar" value="dm.jar" />
+
+          <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant.jar" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="tomcat.home.dir" value="c:/tomcat" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="TSTAMP" value="0945" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.runtime.version" value="1.8.0_45-b15" />
+
+          <property name="sun.boot.class.path" value="C:\home\kevinj\java\jre\lib\resources.jar;C:\home\kevinj\java\jre\lib\rt.jar;C:\home\kevinj\java\jre\lib\sunrsasign.jar;C:\home\kevinj\java\jre\lib\jsse.jar;C:\home\kevinj\java\jre\lib\jce.jar;C:\home\kevinj\java\jre\lib\charsets.jar;C:\home\kevinj\java\jre\lib\jfr.jar;C:\home\kevinj\java\jre\classes" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="tomcat.home" value="c:/tomcat" />
+
+          <property name="jars.dir" value="lib" />
+
+          <property name="dist.bin.dir" value="dist/bin" />
+
+          <property name="env.TEMP" value="C:\Users\kevin\AppData\Local\Temp" />
+
+          <property name="env.VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+
+          <property name="user.country" value="GB" />
+
+          <property name="env.ANT_HOME" value="c:\home\kevinj\ant" />
+
+          <property name="dm.jar.present" value="true" />
+
+          <property name="main.dir" value="src/main/java" />
+
+          <property name="jnlp.dir" value="jnlp" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\" />
+
+          <property name="env.CATALINA_HOME" value="c:\home\kevinj\tomcat" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+      </properties>
+
+      <testcase classname="com.mantiso.kevinj.http.ui.InitDialogTest" name="testInitDialogCancel" time="0.81" />
+
+      <testcase classname="com.mantiso.kevinj.http.ui.InitDialogTest" name="testInitDialogOK" time="0.039" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="KEVINJONES-WIN81-BASE" id="3" name="PanelDataTest" package="com.mantiso.kevinj.http.ui" skipped="0" tests="4" time="0.531" timestamp="2015-06-05T08:45:32">
+      <properties>
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="zip.dir" value="zip" />
+
+          <property name="env.VS120COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\" />
+
+          <property name="java.home" value="C:\home\kevinj\java\jre" />
+
+          <property name="test.src.dir" value="V:\projects\HttpProxy.orig\src\test\java" />
+
+          <property name="dm.deploy.dir" value="c:/course/dm" />
+
+          <property name="jarfile" value="dist/lib/HTTPProxy.jar" />
+
+          <property name="java.endorsed.dirs" value="C:\home\kevinj\java\jre\lib\endorsed" />
+
+          <property name="env.USERNAME" value="kevin" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="dist.lib.dir" value="dist/lib" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="env.COMPUTERNAME" value="KEVINJONES-WIN8" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.version" value="1.8.0_45" />
+
+          <property name="listenport" value="9080" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.USERPROFILE" value="C:\Users\kevin" />
+
+          <property name="ant.project.invoked-targets" value="run-tests" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="user.name" value="kevin" />
+
+          <property name="masterbuild.dir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\kevin\AppData\Local" />
+
+          <property name="dm.deploy.bin.dir" value="c:/course/dm/bin" />
+
+          <property name="tomcat.port" value="8080" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="user.timezone" value="Europe/London" />
+
+          <property name="deploy.zip.name" value="HttpProxy.zip" />
+
+          <property name="user.script" value="" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="env.HOME" value="c:\home\kevinj" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.mantiso.kevinj.http.ui.PanelDataTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,V:\projects\HttpProxy.orig\test\data\TEST-com.mantiso.kevinj.http.ui.PanelDataTest.xml crashfile=V:\projects\HttpProxy.orig\junitvmwatcher4123133640383552539.properties propsfile=V:\projects\HttpProxy.orig\junit1992955287125830344.properties" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="2" />
+
+          <property name="env.APPDATA" value="C:\Users\kevin\AppData\Roaming" />
+
+          <property name="ant.file" value="V:\projects\HttpProxy.orig\build.xml" />
+
+          <property name="server" value="localhost" />
+
+          <property name="java.io.tmpdir" value="C:\Users\kevin\AppData\Local\Temp\" />
+
+          <property name="TODAY" value="June 5 2015" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="ant.file.type.HTTPProxy" value="file" />
+
+          <property name="local.dm.deploy.bin.dir" value="dm/bin" />
+
+          <property name="dm.deploy.lib.dir" value="c:/course/dm/lib" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="test.last.failed.file" value="V:\projects\HttpProxy.orig\target\test-classes\.lasttestsfailed" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="KEVINJONES-WIN8" />
+
+          <property name="test.classes.dir" value="V:\projects\HttpProxy.orig\target\test-classes" />
+
+          <property name="env.LOGONSERVER" value="\\MicrosoftAccount" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="test.reports.dir" value="V:\projects\HttpProxy.orig\target\reports" />
+
+          <property name="test.data.dir" value="V:\projects\HttpProxy.orig\test\data" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+
+          <property name="env.USERDOMAIN" value="KEVINJONES-WIN8" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="os.name" value="Windows 8.1" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="local.dm.deploy.lib.dir" value="dm/lib" />
+
+          <property name="env.TMP" value="C:\Users\kevin\AppData\Local\Temp" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="java.library.path" value="C:\home\kevinj\java\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Parallels\Parallels Tools\Applications;c:\home\kevinj\java\bin;C:\ProgramData\Oracle\Java\javapath;c:\home\kevinj\java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;c:\home\kevinj\tomcat\bin;c:\home\kevinj\gradle\bin;c:\home\kevinj\bin;c:\home\kevinj\ant\bin;." />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="basedir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant" />
+
+          <property name="env.Path" value="C:\Program Files (x86)\Parallels\Parallels Tools\Applications;c:\home\kevinj\java\bin;C:\ProgramData\Oracle\Java\javapath;c:\home\kevinj\java\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;c:\home\kevinj\tomcat\bin;c:\home\kevinj\gradle\bin;c:\home\kevinj\bin;c:\home\kevinj\ant\bin" />
+
+          <property name="dist" value="dist" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.boot.library.path" value="C:\home\kevinj\java\jre\bin" />
+
+          <property name="target.dir" value="target" />
+
+          <property name="env.PROCESSOR_REVISION" value="3d04" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="user.variant" value="" />
+
+          <property name="jarfile.name" value="HTTPProxy.jar" />
+
+          <property name="webapp" value="webapps/addressbook/" />
+
+          <property name="jar.dir" value="jar" />
+
+          <property name="ant.project.name" value="HTTPProxy" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="global.server.dir" value="tomcat.conf" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\home\kevinj\java\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="tomcat.webapp.dir" value="c:/tomcat/webapps/ROOT" />
+
+          <property name="os.version" value="6.3" />
+
+          <property name="user.home" value="C:\Users\kevin" />
+
+          <property name="ant.file.HTTPProxy" value="V:\projects\HttpProxy.orig\build.xml" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.JAVA_HOME" value="c:\home\kevinj\java" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="user.dir" value="V:\projects\HttpProxy.orig" />
+
+          <property name="app.tomcat.server.dir" value="tomcat" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="test.dir" value="V:\projects\HttpProxy.orig\src\test" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="local.dm.deploy.dir" value="dm" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="java.vm.version" value="25.45-b02" />
+
+          <property name="java.class.path" value="V:\projects\HttpProxy.orig\target\classes;V:\projects\HttpProxy.orig\target\test-classes;V:\projects\HttpProxy.orig\lib\dm.jar;V:\projects\HttpProxy.orig\lib\junit.jar;V:\projects\HttpProxy.orig\lib\log4j-1.2.7.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant-junit4.jar" />
+
+          <property name="env.=::" value="::\" />
+
+          <property name="env.HOMEPATH" value="\Users\kevin" />
+
+          <property name="DSTAMP" value="20150605" />
+
+          <property name="doc" value="doc" />
+
+          <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="classes.dir" value="target/classes" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="dm.jar" value="dm.jar" />
+
+          <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.3\lib\ant\lib\ant.jar" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="tomcat.home.dir" value="c:/tomcat" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="TSTAMP" value="0945" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.runtime.version" value="1.8.0_45-b15" />
+
+          <property name="sun.boot.class.path" value="C:\home\kevinj\java\jre\lib\resources.jar;C:\home\kevinj\java\jre\lib\rt.jar;C:\home\kevinj\java\jre\lib\sunrsasign.jar;C:\home\kevinj\java\jre\lib\jsse.jar;C:\home\kevinj\java\jre\lib\jce.jar;C:\home\kevinj\java\jre\lib\charsets.jar;C:\home\kevinj\java\jre\lib\jfr.jar;C:\home\kevinj\java\jre\classes" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="tomcat.home" value="c:/tomcat" />
+
+          <property name="jars.dir" value="lib" />
+
+          <property name="dist.bin.dir" value="dist/bin" />
+
+          <property name="env.TEMP" value="C:\Users\kevin\AppData\Local\Temp" />
+
+          <property name="env.VS110COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+
+          <property name="user.country" value="GB" />
+
+          <property name="env.ANT_HOME" value="c:\home\kevinj\ant" />
+
+          <property name="dm.jar.present" value="true" />
+
+          <property name="main.dir" value="src/main/java" />
+
+          <property name="jnlp.dir" value="jnlp" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\" />
+
+          <property name="env.CATALINA_HOME" value="c:\home\kevinj\tomcat" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+      </properties>
+
+      <testcase classname="com.mantiso.kevinj.http.ui.PanelDataTest" name="testAddRequestHeaderListeners" time="0.311" />
+
+      <testcase classname="com.mantiso.kevinj.http.ui.PanelDataTest" name="testAddResponseHeaderListeners" time="0.062" />
+
+      <testcase classname="com.mantiso.kevinj.http.ui.PanelDataTest" name="testAddRequestListeners" time="0.051" />
+
+      <testcase classname="com.mantiso.kevinj.http.ui.PanelDataTest" name="testAddRequestListeners" time="0.049" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
